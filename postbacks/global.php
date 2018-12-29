@@ -2,7 +2,7 @@
 
 //Getting data from variables
 
-$db = mysqli_connect('', '', '', ''); //Update this line with your mysql details
+$db = mysqli_connect('', '', '', ''); 
 $getusername = mysqli_real_escape_string($db,$_GET['username']); 
 $getpayout = mysqli_real_escape_string($db,$_GET['payout']); 
 $offerid = mysqli_real_escape_string($db,$_GET['offerid']); 
