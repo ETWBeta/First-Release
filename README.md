@@ -41,8 +41,4 @@ CREATE TABLE `users` (
 ```
 Edit MySQL connection details in `dbcon.php`, `server.php` and `postbacks/global.php`
 
-Replace YOURID in `ogwall.php` `Line 68` With your own Affiliate ID  
-
-Replace Links to Offer Walls in `dashboard.php`  `Line 254` With your own
-
 Setup Postback URLs in Ad Networks to Credit Users
