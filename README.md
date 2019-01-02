@@ -3,7 +3,7 @@ Earn TRON Wall aka ETW is a Mobile Friendly platform where Users can earn Free T
 ## Demo
 Project is live at https://www.earntronwall.com
 ## Transactions
-All transactions are now processed automatically
+All transactions are now processed automatically  
 Mainnet Address (Tronscan) https://tronscan.org/#/address/TW7kxWkc8mzkNYMxAaxtdTYiL1AffF7iK8
 ## Roadmap
 * ~~Automating transactions~~
