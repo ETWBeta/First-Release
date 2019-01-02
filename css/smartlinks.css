@@ -1,0 +1,124 @@
+/* OGWall CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+	background-color: #000;
+    font-family: Helvetica;		
+}
+
+.colored {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 13px;
+	padding-right: 13px;
+	line-height: 45px;	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f020b+0,591710+100 */
+	background: #0f020b; /* Old browsers */
+	background: -moz-linear-gradient(left, #0f020b 0%, #591710 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #0f020b 0%,#591710 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #0f020b 0%,#591710 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f020b', endColorstr='#591710',GradientType=1 ); /* IE6-9 */
+}
+
+
+.headertext {
+	font-size: 20px;
+	color: #FFF;
+    font-weight: bold;
+    font-family: Helvetica;	
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.zoom {
+  transition: transform .2s;
+}
+.zoom:hover {
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 1px solid #591710;
+}
+
+.list {
+    padding-bottom: 0px;
+}
+
+.list .offer .image {
+    float: left;
+    margin-right: 10px;
+    width: 60px;
+    /* position: relative; */
+}
+
+.list .offer {
+    min-height: 70px;
+    position: relative;
+    margin: 10px 0;
+    width: 95%;
+	display: table;
+    margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.list .offer .image img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+	border-radius: 5px;
+}
+
+.list .offer .name {
+	color: #FFF;	
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    /* height: 26px; */
+    font-family: Helvetica;	
+	text-transform: uppercase;	
+    margin-top: 10px;
+}
+
+
+.list .offer .description {
+	color: #FFF;	
+    font-size: 80%;
+    padding-top: -2.5px;
+    line-height: 14px;
+    font-family: Helvetica;	
+	margin-bottom: 15px;
+	margin-top: 3px;
+	margin-right:10px;
+	text-transform: uppercase;	
+}
+
+
+.list .offer .info {
+    float: left;
+    width: calc(100% - 150px);
+    padding-left: 75px;
+}
+
+.list .offer .points {
+    float: right;
+    width: auto;
+    padding: 7px 10px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 100%;
+    /* margin-top: 12.5px; */
+    font-family: Helvetica;	
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+	text-transform: uppercase;	
+    border: 1px solid #591710;
+}
+
+
