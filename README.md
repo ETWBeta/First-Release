@@ -42,3 +42,5 @@ CREATE TABLE `users` (
 Edit MySQL connection details in `dbcon.php`, `server.php` and `postbacks/global.php`
 
 Setup Postback URLs in Ad Networks to Credit Users
+
+Setup a server to process incoming transaction requests
