@@ -6,6 +6,9 @@ Currently there are 2 main ways to earn TRX
 * Interacting with smart links
 ## Demo
 Project is live at https://www.earntronwall.com
+Username: DEMO
+Password: DEMOACC
+Wallet: TNbSDEaj3grmkvgCrVQFxH4fp8EsLaZykm
 ## Transactions
 All transactions are now processed automatically  
 Mainnet Address (Tronscan) https://tronscan.org/#/address/TW7kxWkc8mzkNYMxAaxtdTYiL1AffF7iK8
