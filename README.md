@@ -5,9 +5,9 @@ Currently there are 2 main ways to earn TRX
 * Completing tasks from integrated ad networks
 * Interacting with smart links
 ## Demo
-Project is live at https://www.earntronwall.com
-Username: DEMO
-Password: DEMOACC
+Project is live at https://www.earntronwall.com  
+Username: DEMO  
+Password: DEMOACC  
 Wallet: TNbSDEaj3grmkvgCrVQFxH4fp8EsLaZykm
 ## Transactions
 All transactions are now processed automatically  
