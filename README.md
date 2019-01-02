@@ -1,5 +1,6 @@
 ## Summary
 Earn TRON Wall aka ETW is a Mobile Friendly platform where Users can earn Free TRX  
+
 Currently there are 2 main ways to earn TRX
 * Completing tasks from integrated ad networks
 * Interacting with smart links
