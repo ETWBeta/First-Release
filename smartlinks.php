@@ -25,7 +25,7 @@
 <p style="color: #FFF;">
 </p><br>
 <p style="text-transform: uppercase; text-align:center; color: #FFF; font-size: 100%; font-weight: bold; max-width: 95%; margin: 0 auto;">Smart links allow you to discover webpages that might interest you</p><br>
-<p style="text-transform: uppercase; text-align:center; color: #FFF; font-size: 100%; font-weight: bold; max-width: 95%; margin: 0 auto;">Each successful visit will instantly grant 0.001 TRX to your wallet</p><br>
+<p style="text-transform: uppercase; text-align:center; color: #FFF; font-size: 100%; font-weight: bold; max-width: 95%; margin: 0 auto;">Each successful visit will instantly grant 0.003 TRX to your wallet</p><br>
 <br>
 <p style="text-transform: uppercase; text-align:center; color: #FFF; font-size: 100%; font-weight: bold; max-width: 95%; margin: 0 auto;">
 <?php
@@ -89,9 +89,9 @@ function Smartlink()
 	$result = mysqli_query($db, $query);
 	$row = mysqli_fetch_array($result);
 	$wallet = $row['wallet'];	
-	file_get_contents('http://86.38.40.97/?wallet=' . $wallet);	
+	file_get_contents('http://86.38.40.97/?wallet=' . $wallet); //sending request to server including user wallet, amount is defined in the file itself
 	sleep (2);
-	header('Location: http://bodelen.com/afu.php?zoneid=2272227');
+	header('Location: http://bodelen.com/afu.php?zoneid=2272227'); //redirecting user to smart link
 }
 
 if(array_key_exists('Link',$_POST)){
