@@ -20,7 +20,7 @@ Mainnet Address (Tronscan) https://tronscan.org/#/address/TW7kxWkc8mzkNYMxAaxtdT
 * Integrating more Ad Networks
 * Partnering with Direct Advertisers
 ## Installation
-Upload all files to desired hosting and create new database
+Upload all files to desired hosting or server and create new database
 ```
 CREATE TABLE `transactions` (
   `id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
